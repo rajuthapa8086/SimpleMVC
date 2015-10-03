@@ -2,9 +2,10 @@
 
 class home {
 
-	public function index()
-	{
-		echo "Welcome";
-	}
+    public function index() {
+        action::load_template('', 'home', array(
+            'msg' => 'Hello World',
+        ));
+    }
 
 }
