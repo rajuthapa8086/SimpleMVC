@@ -1,7 +1,5 @@
 <?php
 
-error_reporting(-1);
-
 # DIRECTORY SETTINGS
 define('DS', DIRECTORY_SEPARATOR);
 define('APP', "private" . DS . "app" . DS);
