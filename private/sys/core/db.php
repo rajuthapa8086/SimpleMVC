@@ -16,7 +16,7 @@ class db {
             self::$db_config['host'],
             self::$db_config['user'],
             self::$db_config['pass'],
-            elf::$db_config['name']
+            self::$db_config['name']
         );
     }
 
